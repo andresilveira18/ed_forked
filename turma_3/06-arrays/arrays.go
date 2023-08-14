@@ -47,6 +47,9 @@ func main() {
 	modificarSlice(novosNumeros) // altera o slice original
 	fmt.Println(novosNumeros)
 	fmt.Println(numeros)
+
+	novoSlice := criarSlice()
+	fmt.Println(novoSlice)
 }
 
 func modificarArray(a [4]int) {
@@ -55,4 +58,9 @@ func modificarArray(a [4]int) {
 
 func modificarSlice(s []int) {
 	s[0] = 999
+}
+
+func criarSlice() []int {
+	novoSlice := []int{10, 20, 30}
+	return novoSlice
 }
