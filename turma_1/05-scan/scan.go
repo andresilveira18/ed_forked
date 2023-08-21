@@ -8,7 +8,7 @@ func main() {
 	var msg string
 
 	fmt.Println("Informe um número:")
-	fmt.Scan(&x)
+	fmt.Scanln(&x)
 
 	fmt.Println("Informe um float:")
 	fmt.Scan(&y)
